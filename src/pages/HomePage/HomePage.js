@@ -6,15 +6,17 @@ function HomePage() {
 
     const [randomImage, setRandomImage] = useState(null)
 
-    let num = Math.floor(Math.random()*18)
+    // let num = Math.floor(Math.random()*18)
 
     const handleOnClick = () => {
+        let num = Math.floor(Math.random()*18)
+        console.log("number =",num)
         axios.get("http://localhost:8080/images").then(res =>{
             setRandomImage(res.data[num].image)
-            console.log(num)
+            console.log(res.data)
         })
     }
-    console.log(num)
+    // console.log(num)
     return (
         <>
         <div className='home-page'>
