@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2F6690;
+
+
+    &__logo{
+
+    }
+    &__nav{
+        display: flex;
+        justify-content: center;
+    }
+    &__link{
+        margin: 1rem 1rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    &__copy{
+
+    }
+    &__copy-text{
+        position: absolute;
+        right: 1rem;
+        // align-self: center;
+        // margin: 0 1rem;
+        color: #D9DCD6;
+    }
+}
