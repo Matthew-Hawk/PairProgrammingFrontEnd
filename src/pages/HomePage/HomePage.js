@@ -9,7 +9,16 @@ function HomePage() {
     }
 
     return (
-        <button onClick={handleOnClick}>get images</button>
+        <>
+        <div className='home-page'>
+            <h1 className='home-page__title'>A1-Image</h1>
+            <h2 className='home-page__sub-text'> Click the button to generate some awesome AI art</h2>
+            <button onClick={handleOnClick} className="home-page__button">get images</button>
+            <div className=''>
+                //insert the generated photo here
+            </div>
+        </div>
+        </>
     )
 }
 

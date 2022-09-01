@@ -1,3 +1,5 @@
+import "./NoteFoundPage.scss"
+
 function NotFoundPage() {
 
     return (
