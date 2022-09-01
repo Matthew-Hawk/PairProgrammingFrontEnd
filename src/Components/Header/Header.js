@@ -1,4 +1,5 @@
 import "./Header.scss"
+import Logo from "../../assets/artificial-intelligence-ai-icon.svg"
 
 import {Link} from 'react-router-dom'
 
@@ -7,7 +8,7 @@ function Header (){
     return(
         <>
             <div className="header"> 
-                <image className="header__logo" src="#" alt="logo"/>
+                <img className="header__logo" src={Logo} alt="logo"/>
                 <nav className="header__nav">
                     <Link className="header__link" to="/">Home</Link>
                     <Link className="header__link" to="/creaters">Creators</Link>

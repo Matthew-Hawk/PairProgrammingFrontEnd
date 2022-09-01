@@ -1,0 +1,45 @@
+.creators-page {
+    padding: 0 2rem;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+     
+
+    }
+    &__title{
+        margin: 0rem;
+        font-size: 6rem;
+        text-align: center;
+        color:#16425B;
+
+    }
+    &__person{
+        display: flex;
+        text-decoration: none;
+        position: relative;
+        left: 10%;
+        // width: 30%;
+    }
+    &__person-m{
+        display: flex;
+        position: relative;
+        left: 30%;
+        text-decoration: none;
+        // width: 30%;
+
+    }
+    &__image{
+        height: 8rem;
+        width: 8rem;
+        object-fit: cover;
+        margin: 2rem;
+        border-radius: 50%;
+    }
+    &__name{
+        font-size: 1.75rem;
+        align-self: center;
+        color:#16425B;
+    }
+}

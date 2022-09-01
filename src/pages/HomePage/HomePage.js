@@ -14,15 +14,15 @@ function HomePage() {
             console.log(num)
         })
     }
-
+    console.log(num)
     return (
         <>
         <div className='home-page'>
             <h1 className='home-page__title'>Faux Gallery</h1>
             <h2 className='home-page__sub-text'> Click the button to generate some awesome AI art</h2>
-            <button onClick={handleOnClick} className="home-page__button">get images</button>
+            <button onClick={handleOnClick} className="home-page__button">Get Images</button>
             <div className='home-page__pic-div'>
-               <img src={randomImage} />
+               <img className='home-page__image' src={randomImage} />
             </div>
         </div>
         </>

@@ -24,17 +24,25 @@ if(chrisImage === null || matthewImage ===null || aarunImage ===null){
         <>
         <div className='creators-page'> 
             <h1 className='creators-page__title'>Creators</h1>
-            <div className='creators-page__person'>
-                <img className='creators-page__image' src={chrisImage} />
-                <h2 className='creators-page__name'>Chris Lee</h2>
-            </div>
-            <div className='creators-page__person'>
-                <img className='creators-page__image' src={matthewImage} />
-                <h2 className='creators-page__name'>Matthew Hawkins</h2>
-            </div>
-            <div className='creators-page__person'>
-                <img className='creators-page__image' src={aarunImage} />
-                <h2 className='creators-page__name'>Aarun Jassal</h2>
+            <div className='creators-page__container'>
+                <div>
+                    <a className='creators-page__person' href='https://www.linkedin.com/in/chris-chanho-lee/'>
+                    <img className='creators-page__image' src={chrisImage} />
+                    <h2 className='creators-page__name'>Chris Lee</h2>
+                    </a>
+                </div>
+                <div>
+                    <a className='creators-page__person-m' href='https://www.linkedin.com/in/matthew-hawk/'>
+                    <img className='creators-page__image' src={matthewImage} />
+                    <h2 className='creators-page__name'>Matthew Hawkins</h2>
+                    </a>
+                </div>
+                <div>
+                    <a className='creators-page__person' href='https://www.linkedin.com/in/aarun-jassal/'>
+                    <img className='creators-page__image' src={aarunImage} />
+                    <h2 className='creators-page__name'>Aarun Jassal</h2>
+                    </a>
+                </div>
             </div>
         </div>
        
