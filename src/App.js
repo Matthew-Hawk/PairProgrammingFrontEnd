@@ -11,15 +11,17 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 function App() {
   return (
   <>
-  <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path='/' element={<Navigate to='/Home' />}></Route>
-      <Route path='/home' element={<HomePage />}></Route> 
-      <Route path='/creaters' element={<CreatersPage />}></Route>
-      <Route path='*' element={<NotFoundPage />}></Route>
-    </Routes>
-  </BrowserRouter>
+    <BrowserRouter>
+    <div className="app">
+      <Header />
+      <Routes>
+        <Route path='/' element={<Navigate to='/Home' />}></Route>
+        <Route path='/home' element={<HomePage />}></Route> 
+        <Route path='/creaters' element={<CreatersPage />}></Route>
+        <Route path='*' element={<NotFoundPage />}></Route>
+      </Routes>
+     </div>
+    </BrowserRouter>
   </>
   );
 }

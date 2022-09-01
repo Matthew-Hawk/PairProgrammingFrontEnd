@@ -1,0 +1,30 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    &__title{
+        font-family: 'Open Sans';
+        margin: .5rem;
+        font-size: 6rem;
+        color: #16425B;
+    }
+    &__sub-text{
+        margin: .5rem;
+        font-size: 2rem;
+        color: #3A7CA5;
+    }
+    &__button{
+        margin: 1rem;
+        padding: .5rem 5rem;
+        border-radius: 4px;
+        // border:  2px solid black;
+        color: #D9DCD6;
+        background-color: #3A7CA5;
+    }
+    &__pic-div{
+        padding: 2rem;
+        background-color: #BCBCBC;
+        border: .25rem;
+    }
+}
